@@ -40,7 +40,7 @@ public class SpringContentApplication implements ContentRestConfigurer {
 
     @Override
     public void configure(RestConfiguration restConfiguration) {
-        restConfiguration.forDomainType(File.class).putAndPostPreferResource();
+        restConfiguration.forDomainType(File.class);
     }
 
     private static final Log logger = LogFactory.getLog(SpringContentApplication.class);

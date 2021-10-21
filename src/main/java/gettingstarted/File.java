@@ -38,7 +38,7 @@ public class File {
 	@ContentLength private long contentLength;
 	private String mimeType = "text/plain";
 
-	@Version
+//	@Version
 	private Long vstamp;
 
 	@LockOwner
